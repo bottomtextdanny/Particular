@@ -1,0 +1,25 @@
+
+modLoader="javafml"
+loaderVersion="[38,)"
+license="All rights reserved"
+[[mods]]
+modId="particular"
+version="1.0"
+displayName="Particular"
+logoFile="particular_logo.png"
+credits="My mom AND dad."
+authors="BottomTextDanny"
+description='''Client-side mod that adds more particles to your world.
+Particular, get it?.'''
+[[dependencies.particular]]
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[38,)" #mandatory
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.particular]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,)"
+    ordering="NONE"
+    side="CLIENT"

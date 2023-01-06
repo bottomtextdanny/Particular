@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "bottomtextdanny.particular.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "refmap": "particular.mixins.refmap.json",
+  "client": [
+    "ClientLevelMixin",
+    "SquidMixin",
+    "HugeExplosionSeedParticleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
