@@ -9,7 +9,7 @@ import bottomtextdanny.particular.braincellapi.base.ImpreciseRot;
 import bottomtextdanny.particular.braincellapi.local_sprites.SpriteGroup;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.math.Vector3f;
+import org.joml.Vector3f;
 import net.minecraft.client.Camera;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.particle.SpriteSet;
@@ -34,9 +34,7 @@ public abstract class BaseSpriteParticle<E extends ExtraOptions> extends Modular
         xo = x;
         yo = y;
         zo = z;
-
         ticker._execute(this);
-
         move(xd, yd, zd);
 
         int lifetime = this.lifetime;
@@ -64,14 +62,14 @@ public abstract class BaseSpriteParticle<E extends ExtraOptions> extends Modular
     
     public void render(VertexConsumer buffer, Camera renderInfo, float tickOffset) {
         float f4 = Math.max(getQuadSize(tickOffset), 0.0F);
-
         PoseStack pose = new PoseStack();
-
         Vec3 vector3d = renderInfo.getPosition();
         float f = (float)(Mth.lerp(tickOffset, xo, x) - vector3d.x());
         float f1 = (float)(Mth.lerp(tickOffset, yo, y) - vector3d.y());
         float f2 = (float)(Mth.lerp(tickOffset, zo, z) - vector3d.z());
+
         pose.translate(f, f1, f2);
+
         if (getFlag(CAMERA_DISJUNCTION)) {
             if (yRotO != 0 || yRot != 0) {
                 pose.mulPose(ImpreciseRot.yRotDeg(-Mth.lerp(tickOffset, yRotO, yRot)));
@@ -79,7 +77,6 @@ public abstract class BaseSpriteParticle<E extends ExtraOptions> extends Modular
             if (xRotO != 0 || xRot != 0) {
                 pose.mulPose(ImpreciseRot.xRotDeg(Mth.lerp(tickOffset, xRotO, xRot)));
             }
-
         } else {
             if (yRotO != 0 || yRot != 0 || renderInfo.getYRot() != 0) {
                 pose.mulPose(ImpreciseRot.yRotDeg(-Mth.lerp(tickOffset, yRotO, yRot) - renderInfo.getYRot()));
@@ -104,7 +101,7 @@ public abstract class BaseSpriteParticle<E extends ExtraOptions> extends Modular
 
         for(int i = 0; i < 4; ++i) {
             Vector3f vector3f = avector3f[i];
-            vector3f.transform(pose.last().normal());
+            vector3f.mul(pose.last().normal());
             vector3f.mul(f4);
             vector3f.add(f, f1, f2);
         }

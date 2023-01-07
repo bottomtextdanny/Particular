@@ -5,7 +5,7 @@
 
 package bottomtextdanny.particular.braincellapi;
 
-import com.mojang.math.Vector3f;
+import org.joml.Vector3f;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.util.RandomSource;

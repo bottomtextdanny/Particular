@@ -1,0 +1,248 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/dust_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/shine_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/shine_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/shine_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/shine_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/shine_4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/flashy_explosion_glint_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/flashy_explosion_glint_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/flashy_explosion_glint_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/flashy_explosion_glint_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/flashy_explosion_glint_4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/flashy_explosion_glint_5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/shocky_explosion_glint_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/shocky_explosion_glint_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/shocky_explosion_glint_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/shocky_explosion_glint_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/lit_explosion_glint_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/lit_explosion_glint_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/lit_explosion_glint_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/lit_explosion_glint_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/lit_explosion_glint_4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/lit_explosion_glint_5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/lit_explosion_glint_6"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/lit_explosion_glint_7"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/ink_splash_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/ink_splash_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/ink_splash_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/ink_splash_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/ink_splash_4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/ink_splash_5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_6"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_7"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_8"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_9"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_10"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_11"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_12"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_13"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/soul_14"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_6"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_7"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_8"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_9"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_10"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_11"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_12"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_13"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_14"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "particular:particle/little_soul_15"
+    }
+  ]
+}

@@ -5,7 +5,6 @@ import bottomtextdanny.particular.braincellapi.base.BCVectors;
 import bottomtextdanny.particular.config.CeilingDebrisConfig;
 import bottomtextdanny.particular.config.ParticularConfig;
 import bottomtextdanny.particular.particle.ModularParticleClientData;
-import com.mojang.math.Vector3f;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -23,6 +22,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
+import org.joml.Vector3f;
 
 import javax.annotation.Nullable;
 

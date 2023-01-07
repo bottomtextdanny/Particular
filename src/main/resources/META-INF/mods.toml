@@ -4,7 +4,7 @@ loaderVersion="[38,)"
 license="All rights reserved"
 [[mods]]
 modId="particular"
-version="1.0"
+version="1.1"
 displayName="Particular"
 logoFile="particular_logo.png"
 credits="My mom AND dad."
@@ -20,6 +20,6 @@ Particular, get it?.'''
 [[dependencies.particular]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.2,)"
+    versionRange="[1.19.3,)"
     ordering="NONE"
     side="CLIENT"

@@ -5,6 +5,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
@@ -63,7 +64,7 @@ public class BlocksConfig {
 
 	private void testTagReference(ImmutableSet.Builder<Block> set, String key) {
 		if (ResourceLocation.isValidResourceLocation(key)) {
-			Optional<HolderSet.Named<Block>> tagBlocksIterator = Registry.BLOCK.getTag(TagKey.create(Registry.BLOCK_REGISTRY, new ResourceLocation(key)));
+			Optional<HolderSet.Named<Block>> tagBlocksIterator = BuiltInRegistries.BLOCK.getTag(TagKey.create(BuiltInRegistries.BLOCK.key(), new ResourceLocation(key)));
 
 			if (tagBlocksIterator.isPresent()) {
 				for (Holder<Block> holder : tagBlocksIterator.get()) {
@@ -79,7 +80,7 @@ public class BlocksConfig {
 
 	private void testBlockReference(ImmutableSet.Builder<Block> set, String key) {
 		if (ResourceLocation.isValidResourceLocation(key)) {
-			Block block = Registry.BLOCK.get(new ResourceLocation(key));
+			Block block = BuiltInRegistries.BLOCK.get(new ResourceLocation(key));
 
 			if (block != null && block != Blocks.AIR) {
 				set.add(block);

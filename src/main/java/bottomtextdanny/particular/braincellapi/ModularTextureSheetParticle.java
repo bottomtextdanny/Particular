@@ -32,6 +32,7 @@ public abstract class ModularTextureSheetParticle<E extends ExtraOptions> extend
 	public final E options;
 	@Nullable
 	protected Direction collisionDirection;
+	protected Vec3 collisionPosition;
 	protected int collisionDirectionUpdateTime;
 	private boolean stoppedByCollision;
 	public byte flags;
